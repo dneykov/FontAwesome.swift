@@ -16,7 +16,7 @@ let package = Package(
                 .process("Resources/Fonts"),
             ]
         ),
-        .target(
+        .executableTarget(
             name: "tools"
         )
     ]
